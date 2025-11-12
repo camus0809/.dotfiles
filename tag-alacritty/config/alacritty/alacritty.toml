@@ -1,0 +1,6 @@
+[font]
+normal={family = "Consolas", style="Regular"}
+bold={family = "Consolas", style="Bold"}
+italic={family = "Consolas", style="Italic"}
+bold_italic={family = "Consolas", style="Bold Italic"}
+size=16
