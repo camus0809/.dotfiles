@@ -104,3 +104,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
  bindkey '^ ' autosuggest-accept
+
+ # 配置了日志命令
+alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export SDL_IM_MODULE=fcitx
+export CLUTTER_IM_MODULE=fcitx

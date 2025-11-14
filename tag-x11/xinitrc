@@ -51,4 +51,16 @@ if [ -d "$xinitdir"/xinitrc.d ] ; then
 	unset f
 fi
 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export SDL_IM_MODULE=fcitx
+export CLUTTER_IM_MODULE=fcitx
+
+light -N 10
+# usr xclip
+xclip &
+# use fcitx5
+fcitx5 &
+# startup i3wm
 exec i3 

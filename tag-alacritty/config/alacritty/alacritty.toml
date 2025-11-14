@@ -4,3 +4,15 @@ bold={family = "Consolas", style="Bold"}
 italic={family = "Consolas", style="Italic"}
 bold_italic={family = "Consolas", style="Bold Italic"}
 size=16
+
+[window]
+decorations = "Transparent"
+opacity = 0.5
+blur = true
+dynamic_title = true
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = {shape = "Block", blinking = "on"}
